@@ -1,0 +1,24 @@
+[2025-02-22 18:24:58] local.ERROR: {
+    "timestamp": "2025-02-22 18:24:58",
+    "level": "ERROR",
+    "api": "http:\/\/127.0.0.1:8000\/api\/users",
+    "method": "POST",
+    "controller": "UserController",
+    "function": "add",
+    "message": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'INSERT INTO' (Connection: mysql, SQL: insert into `users` (`name`, `email`, `password`, `updated_at`, `created_at`) values (Uttam Bhut, uttams@example.com, $2y$12$KA7kkqd0j6L27i4EONopL.\/N5fVnUWayU1Ml9l87TgQKHLF6d6.OW, 2025-02-22 18:24:58, 2025-02-22 18:24:58))",
+    "file": "F:\\xampp\\htdocs\\laravel-crud-api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php",
+    "line": 825,
+    "user_id": "Guest"
+}  
+[2025-02-22 18:30:46] local.ERROR: {
+    "timestamp": "2025-02-22 18:30:46",
+    "level": "ERROR",
+    "api": "http:\/\/127.0.0.1:8000\/api\/users",
+    "method": "POST",
+    "controller": "UserController",
+    "function": "add",
+    "message": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'INSERT INTO' (Connection: mysql, SQL: insert into `users` (`name`, `email`, `password`, `updated_at`, `created_at`) values (Uttam Bhut, uttams@example.com, $2y$12$NUu12kQhMIP.o3\/nJyQ4ouMN5DVnTSY0ewWKqVgPHdR3U8yCwCAmi, 2025-02-22 18:30:46, 2025-02-22 18:30:46))",
+    "file": "F:\\xampp\\htdocs\\laravel-crud-api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php",
+    "line": 825,
+    "user_id": "Guest"
+}  
